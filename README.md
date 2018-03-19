@@ -62,8 +62,7 @@ import { register } from './config'
 register('hello', 'Will respond with the hello value from config', (bot, msg, cfg, _args) => {
   bot.postMessage({
     channel: msg.channel, // Required. We'll respond to the channel
-    text: `Hello ${cfg.hello}!` // We declare hello in our config.ts,
-    ...cfg.defaultParams // This all append the bot name and emoji (This will be done automatically in future versions of Slacklib)
+    text: `Hello ${cfg.hello}!` // We declare hello in our config.ts
   })
 })
 ```
