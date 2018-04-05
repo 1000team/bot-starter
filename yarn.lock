@@ -52,9 +52,9 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-slacklib@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/slacklib/-/slacklib-3.1.0.tgz#72b7fcae35f1b4d890b01fbe5bb829c0764f7980"
+slacklib@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/slacklib/-/slacklib-3.1.1.tgz#1d88e8be6c726bd4821d5f2b8c9068b763506eda"
   dependencies:
     "@types/needle" "^2.0.2"
     "@types/ws" "^3.2.1"
